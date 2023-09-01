@@ -6,11 +6,10 @@ public class Parsing01 {
         String gibberish = ("wrkugfbuqwkfbiquefgblewugfb2w");
         //Parse shirtPrice and taxRate, and print the total tax
         System.out.println(Integer.parseInt(shirtPrice) * Double.parseDouble(taxRate));
-        
         //Try to parse taxRate as an int
-        
+        System.out.println(Integer.parseInt(taxRate));
         //Try to parse gibberish as an int
-        
+        System.out.println(Integer.parseInt(gibberish));
     }
     
 }
