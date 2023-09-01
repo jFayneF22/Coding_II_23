@@ -8,9 +8,6 @@ public class ComputeMethods {
         double a = 8;
         double b = 6;
         System.out.println(" the hypotnuse of " + a + "x" + b + " is equal to: " + Math.sqrt((a*a)+(b*b)));
-        
-        
-        System.out.println(roll1);
     }
 }
 

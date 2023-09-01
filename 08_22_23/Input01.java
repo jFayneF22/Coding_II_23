@@ -1,3 +1,4 @@
+import javax.swing.JOptionPane;
 public class Input01 {
     public static void main(String[] args) {
         //Create a JOptionPane.
@@ -7,7 +8,7 @@ public class Input01 {
         
         //Parse the input as an int.
         //Print its value +1
-        
+        System.out.println(Integer.parseInt(Input));
         
         
         //Try creating a dialog, parsing it, and initializing an int in a single line.
