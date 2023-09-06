@@ -15,6 +15,5 @@ public class ComputeFare {
         }
         keyboard.close();
         System.out.println("Your fare is: " + fare + "$.");
-
     }
 }
