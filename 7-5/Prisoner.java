@@ -1,14 +1,10 @@
 //Section 7, Lesson 5 Starter for Exercise 1 - Slide 10
-
-import javax.sound.midi.Soundbank;
-
 public class Prisoner {
     //Fields 
-    public String name;
-    public double height;
-    public int sentence;
-    public Cell prisonCell;
-
+    private String name;
+    private double height;
+    private int sentence;
+    private Cell prisonCell;
     //Constructor
     public Prisoner(String name, double height, int sentence, Cell prisonCell){
  	this.name = name;
@@ -25,6 +21,31 @@ public class Prisoner {
         System.out.println("Name: " +name);
         System.out.println("Height: " +height);
         System.out.println("Sentence: " +sentence);
-        System.out.println("Cell: " + prisonCell.getname());
+        System.out.println("Cell: " + prisonCell.getName());
+        System.out.println("Door: " + prisonCell.getDoor());
+    }
+    public String getName(){
+        return name;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+    public double getHeight(){
+        return height;
+    }
+    public void setHeight(double height){
+        this.height = height;
+    }
+    public int getSentence(){
+        return sentence;
+    }
+    public void setSentence(int sentence){
+        this.sentence = sentence;
+    }
+    public Cell getCell(){
+        return prisonCell;
+    }
+    public void setCell(Cell prisonCell){
+        this.prisonCell = prisonCell;
     }
 }
