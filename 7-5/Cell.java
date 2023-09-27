@@ -27,7 +27,5 @@ public class Cell {
         } else{
             System.out.println("Security Code INCORRECT");
         }
-         }
     }
-
 }

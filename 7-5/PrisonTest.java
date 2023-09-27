@@ -3,9 +3,7 @@
 public class PrisonTest {
     public static void main(String[] args){
         
-        Prisoner bubba = new Prisoner("Bubba", 2.08, 4, new Cell("C3PO",false) );
+        Prisoner bubba = new Prisoner("Bubba", 2.08, 4, new Cell("C3PO",false,911) );
         bubba.display(false);
-        bubba.openDoor();
-        bubba.openDoor();
     }
 }

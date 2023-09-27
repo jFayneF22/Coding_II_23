@@ -25,6 +25,6 @@ public class Prisoner {
         System.out.println("Name: " +name);
         System.out.println("Height: " +height);
         System.out.println("Sentence: " +sentence);
-        System.out.println("Cell: " + prisonCell.cellName);
+        System.out.println("Cell: " + prisonCell.getname());
     }
 }
