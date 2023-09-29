@@ -10,7 +10,7 @@ public class daysInAMonth {
         System.out.println("Input a year:");
         int year = sc.nextInt();
         sc.close();
-        String month;
+        String month =" ";
         int days;
         if (monthnum%2 == 0){
             days = 30;
