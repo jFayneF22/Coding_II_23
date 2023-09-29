@@ -4,6 +4,7 @@ public class inchtometer {
         Scanner sc = new Scanner(System.in);
         System.out.println("Input value for inches");
         int inches = sc.nextInt();
+        sc.close();
         double meters = inches * 0.0254;
         System.out.println(inches + " is equal to " + meters + " meters");
     }
