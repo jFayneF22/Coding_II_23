@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+
 public class ArrayListEx1 {
 
     public static void main(String[] args) {
@@ -7,11 +8,11 @@ public class ArrayListEx1 {
         students.add("Bob");
         students.add("Cindy");
         students.add("David");
-        students.add(0,"Nick");
-        students.add(1,"Mike");
+        students.add(0, "Nick");
+        students.add(1, "Mike");
         students.remove(3);
         System.out.println(students);
         System.out.println(students.size());
     }
-    
+
 }
